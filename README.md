@@ -1,5 +1,5 @@
 # custom-rest-api-multi-auth
-Custom REST API w/ multi-auth (PHP, AJAX, Javascript, HTML, CSS)
+Custom REST API w/ multi-auth (PHP, AJAX, Javascript, HTML, CSS), email verification, and more
 
 # Features:
 1. Full-fledged authentication system (Pages: login, logout, register)
