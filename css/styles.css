@@ -1,0 +1,144 @@
+.login-wrapper {
+    margin: auto;
+    width: 50%;
+}
+
+@media screen and (max-width: 900px) {
+    .login-wrapper {
+        margin: auto;
+        width: 100%;
+    }
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.table-wrapper {
+    margin: auto;
+    width: 80%;
+}
+
+@media (max-width:1000px) {
+    .table-wrapper {
+        width: 100%;
+    }
+}
+
+.title,
+.subtitle,
+.table-name {
+    color: #6495ED;
+    text-align: center;
+}
+
+.info {
+    margin: auto;
+    text-align: center;
+}
+
+table {
+    border-spacing: 0;
+    margin: auto;
+}
+
+td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+th {
+    color: white;
+    background-color: #66b5ff;
+    /* color for table headers */
+    padding: 5px;
+    width: 50%;
+    text-align: right;
+    border-bottom: white solid 1px;
+}
+
+tr:nth-child(even) {
+    background-color: #cce6ff;
+    /* color for alternating rows */
+}
+
+.procedure-row-wrapper {
+    text-align: center;
+    border-right: 1px solid #b3daff;
+    /* color for line in between rows */
+}
+
+.description-row-wrapper {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 1px solid #b3daff;
+    /* color for line in between rows */
+}
+
+.fee-row-wrapper {
+    width: 20%;
+}
+
+.fee-row-wrapper div {
+    width: 100%;
+    display: flex;
+    justify-content: space-apart;
+}
+
+.fee-row-data {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5px;
+}
+
+.fee-row-dollar {
+    padding-left: 5px;
+}
+
+.back-button-wrapper {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.no-rows-found-wrapper {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.search-box-wrapper {
+    text-align: center;
+}
+
+.error {
+    color: red;
+}
+
+.list-option {
+    margin: auto;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.label-checkbox {
+    text-align: right;
+    padding-right: 10px;
+    width: 100%;
+}
+
+.input-checkbox {
+    text-align: left;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.field-list table {
+    margin: auto;
+}
+

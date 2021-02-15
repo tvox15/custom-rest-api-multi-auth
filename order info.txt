@@ -1,0 +1,31 @@
+Hello,
+I have created the search function as requested.
+I'll give you the source code and you can copy and paste it in yourself.
+
+UI add
+
+There are 4 files.
+File 1: Search Box
+This is where the user types in the UIC Number and hits enter.
+It will show errors if it is not 20 characters or if it is empty.
+
+File 2: Results Page
+This is where the results are shown in a table along with another search box. It also has built in server-side error handling.
+
+File 3: Javascript file
+This file is used for validating the data client side.
+
+File 4: MySQL file. Upload to your MYSQL database if you don't have the data in a DB yet.
+
+Security notes: I added both client-side and server-side data validation and use prepared statements for the database query so no malicious code can be injected.
+
+Design/Styling: I added the CSS styles into the head tags in each PHP file.
+
+How to implement:
+1. All files should be added into the same folder.
+2. On the results.php page, the sql query on line 43 uses the table name "athletes". If you have an existing table, you should change it. Or if you upload the SQL file I'm sending you to your database, you won't have to change it at all.
+For the dbhost on line 21, localhost should work but let me know if it doesn't.
+
+If you have any questions/requests or help implementing, just let me know.
+Thanks!
+-- Kevin
